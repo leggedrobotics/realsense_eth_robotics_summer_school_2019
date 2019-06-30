@@ -47,7 +47,7 @@
   <arg name="topic_odom_in"             default="odom_in"/>
   <arg name="calib_odom_file"           default=""/>
   <arg name="publish_odom_tf"           default="true"/>
-  <arg name="allow_no_texture_points"   default="false"/>
+  <arg name="allow_no_texture_points"   default="true"/>
 
 
   <node pkg="tf" type="static_transform_publisher" name="base_realsense_publisher" args="0.280, 0.018, 0.241 0.0 0.342, 0.0, 0.940 base $(arg tf_prefix)_link 100" />
