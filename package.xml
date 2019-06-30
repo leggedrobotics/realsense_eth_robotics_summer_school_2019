@@ -51,6 +51,7 @@
   <buildtool_depend>catkin</buildtool_depend>
   <depend>roscpp</depend>
   <depend>sensor_msgs</depend>
+  <depend>realsense2_camera</depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->

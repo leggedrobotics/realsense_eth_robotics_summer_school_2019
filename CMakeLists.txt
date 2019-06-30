@@ -7,7 +7,7 @@ project(realsense_eth_robotics_summer_school_2019)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED roscpp sensor_msgs)
+find_package(catkin REQUIRED roscpp sensor_msgs realsense2_camera)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -101,7 +101,7 @@ find_package(catkin REQUIRED roscpp sensor_msgs)
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES realsense_eth_robotics_summer_school_2019
- CATKIN_DEPENDS roscpp sensor_msgs
+ CATKIN_DEPENDS roscpp sensor_msgs realsense2_camera
 #  DEPENDS system_lib
 )
 
